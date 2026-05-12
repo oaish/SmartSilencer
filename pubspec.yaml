@@ -1,0 +1,46 @@
+name: smart_silencer
+description: "Smart Silencer - Auto silence your phone based on geofences"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Typography
+  google_fonts: ^6.2.1
+
+  # Location & Geocoding
+  geolocator: ^13.0.4
+  geocoding: ^3.0.0
+
+  # Background services
+  flutter_background_service: ^5.0.9
+
+  # State management & storage
+  provider: ^6.1.2
+  shared_preferences: ^2.3.3
+
+  # Notifications
+  flutter_local_notifications: ^18.0.1
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # Utilities
+  uuid: ^4.5.1
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
